@@ -22,7 +22,7 @@ speak = function(text) {
 	msg.text = text;
   	msg.volume = 1;
 	msg.rate = 1.2;
-	msg.pitch = 2;
+	msg.pitch = 1.7;
 	msg.voice = thisVoice;
 
 	window.speechSynthesis.speak(msg);
